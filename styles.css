@@ -1,12 +1,12 @@
 .main-container {
     width: 600px;
-    background-color: white;
-    border: 2px solid black;
+    background-color: rgb(41, 0, 0);
+    border: 5px solid rgb(4, 255, 4);
     margin: 20px auto;
 }
 
 .row-style {
-    height: 100px;
+    height: 200px;
     border: 2px solid black;
 }
 
