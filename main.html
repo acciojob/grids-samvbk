@@ -9,22 +9,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="row">
-		<div class="col-md-2 g">Row1 col1</div>
-		<div class="col-md-4 p">Row1 col2</div>
-	</div>
-	<div class="row">
-		<div class="col-md-1 bg-dark"></div>
-		<div class="col-md-2 bg-danger">Row2 col1</div>
-		<div class="col-md-1 bg-dark"></div>
-		<div class="col-md-2 bg-info">Row2 col2</div>
-	</div>
-	<div class="row">
-		<div class="col-md-1 bg-dark"></div>
-		<div class="col-md-2 pink">Row3 col1</div>
-		<div class="col-md-2 light-green">Row3 col2</div>
-		<div class="col-md-1 bg-dark"></div>
-	</div>
+	<div class="container main-container">
+		        <div class="row row-style">
+            <div class="col-6 col-md-4 column-style row1-col1">
+                Row1 col1
+            </div>
+
+            <div class="col-6 col-md-8 column-style row1-col2">
+                Row1 col2
+            </div>
+        </div>
+		<div class="row row-style">
+            <div class="col-6 col-md-2 offset-md-1 column-style row2-col1">
+                Row2 col1
+            </div>
+
+            <div class="col-6 col-md-2 offset-md-1 column-style row2-col2">
+                Row2 col2
+            </div>
+        </div>
+		<div class="row row-style">
+            <div class="col-6 col-md-2 offset-md-4 column-style row3-col1">
+                Row3 col1
+            </div>
+
+            <div class="col-6 col-md-2 column-style row3-col2">
+                Row3 col2
+            </div>
+        </div>
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>

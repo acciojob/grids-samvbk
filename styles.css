@@ -1,15 +1,42 @@
-.light-green {
-  background-color: lightgreen;
+.main-container {
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px auto;
 }
 
-.pink {
-  background-color: pink;
+.row-style {
+    height: 100px;
+    border: 2px solid black;
 }
 
-.p{
-	background-color:#FADADD;
+.column-style {
+    border: 2px solid black;
 }
-.g{
-	background-color:#0F4C45;
+
+/* Row 1 */
+.row1-col1 {
+    background-color: teal;
 }
-/* Your CSS Code here. */
+
+.row1-col2 {
+    background-color: thistle;
+}
+
+/* Row 2 */
+.row2-col1 {
+    background-color: tomato;
+}
+
+.row2-col2 {
+    background-color: turquoise;
+}
+
+/* Row 3 */
+.row3-col1 {
+    background-color: violet;
+}
+
+.row3-col2 {
+    background-color: yellowgreen;
+}
