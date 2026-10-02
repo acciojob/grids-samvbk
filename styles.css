@@ -7,11 +7,11 @@
 
 .row-style {
     height: 200px;
-    border: 2px solid black;
+    border: 5px solid rgb(255, 188, 188);
 }
 
 .column-style {
-    border: 2px solid black;
+    border: 2px dotted rgb(38, 38, 43);
 }
 
 /* Row 1 */
